@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ho perso lo zainetto!</title>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 90vh;
+            text-align: center;
+        }
+        .card {
+            background: #ffffff;
+            padding: 30px 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 24px;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+        /* Stile per il pulsante della mappa (Blu) */
+        a.button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 24px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        /* Stile per il pulsante di chiamata (Verde) */
+        a.button-call {
+            display: inline-block;
+            background-color: #28a745;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 24px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            body { background-color: #121212; color: #e0e0e0; }
+            .card { background-color: #1e1e1e; box-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Ciao! 👋</h1>I
+        <p>
+            Ciao , sono Rufus 🐶<br><br>
+             Sono molto buono e docile, adoro i croccantini e i biscottini. A dire il vero tutto quello che si mangia e anche quello che non si può mangiare🤣<br><br> 
+          Se non vedi qualcuno che urla il mio nome nei peroggi vuol dire che mi sono allontanato troppo 😬<br><br> 
+          Nessun problema, qui sotto c'è un tasto per chiamare il mio padroncino.<br><br>
+          Raffaele sarà molto felice di venire a riprendermi.<h1>🏃🏃.</h1><br><br> Grazie  
+        </p>
+        
+        
+        <!-- Link per effettuare la chiamata. Cambia gli zeri con il tuo numero! -->
+        <a href="tel:+390000000000" class="button-call">Chiama Raffaele</a>
+    </div>
+
+</body>
+</html>
